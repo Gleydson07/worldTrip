@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React, { ReactNode, useEffect, useState } from 'react';
 import SwiperCore, { Navigation, Pagination } from 'swiper'
 import { Swiper } from 'swiper/react';
-import { api } from '../../services/api';
 import { SlideItem } from './SlideItem';
+import {apiContinents} from '../../services/continents'
 
 SwiperCore.use([Navigation, Pagination]);
 
@@ -12,36 +12,40 @@ type ContinentProps = {
   image: string,
 }
 
-export function SlideContinent(){  
-  const [continentsToSwiper, setContinentsToSwiper] = useState<ContinentProps[]>()
+export function SlideContinent(){
+  const [continents, setContinents] = useState<ReactNode>()
 
   useEffect(() => {
-    async function getContinents(){
-      const response = await api.get("continents")
-      setContinentsToSwiper(response.data)
+    function loadContinents(){
+      let data = [];
+      apiContinents.map(continent => {
+        data.push(
+          <SlideItem 
+            key={continent.title}
+            title={continent.title}
+            description={continent.description}
+            image={continent.image}
+          />
+        )
+      })
+      return data
     }
-    getContinents();
-    console.log(continentsToSwiper)
+    setContinents(loadContinents)
   }, [])
-    return (
-        <Swiper
-          slidesPerView={1}
-          pagination={{ clickable: true }}
-          navigation
-          scrollbar={{draggable: true}}
-        >
 
-          {
-            continentsToSwiper.map(continent => {
-              <SlideItem 
-                key={continent.title}
-                title={continent.title}
-                description={continent.description}
-                image={continent.image}
-              />
-            })
-          }
-          
-        </Swiper>
-    )
+  
+
+  return (
+    <Swiper
+      slidesPerView={1}
+      id="main"
+      tag="section"
+      wrapperTag="ul"
+      navigation
+      pagination={{ clickable: true }}
+      scrollbar={{ draggable: true }}
+    >
+      {continents}
+    </Swiper>
+  )
 }

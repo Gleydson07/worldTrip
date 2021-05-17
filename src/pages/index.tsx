@@ -1,8 +1,8 @@
 import { Box,  Divider,  Flex, Grid, Heading, Image, Text } from "@chakra-ui/react";
-import React, { useEffect, useState } from "react";
-import {api} from "../services/api";
+import React from "react";
 import { Header } from "../components/Header";
 import { SlideContinent } from "../components/SlideContinent";
+import { TravelTypes } from "../components/TravelTypes";
 
 export default function Home() {
 
@@ -49,78 +49,7 @@ export default function Home() {
           </Box>
         </Flex>
 
-        <Grid 
-          my="20"
-          mx="auto"
-          templateColumns="repeat(5, 1fr)"
-          gap="20"
-        >            
-          <Box 
-            align="center"
-          >
-            <Image src="drink.svg"/>
-            <Heading
-              mt="6"
-              fontSize="2xl"
-              fontWeight="semibold"
-              color="dark.700"         
-            >
-              vida noturna
-            </Heading>
-          </Box>  
-          <Box 
-            align="center"
-          >
-            <Image src="surf.svg"/>
-            <Heading
-              mt="6"
-              fontSize="2xl"
-              fontWeight="semibold"
-              color="dark.700"         
-            >
-              praia
-            </Heading>
-          </Box>  
-          <Box 
-            align="center"
-          >
-            <Image src="building.svg"/>
-            <Heading
-              mt="6"
-              fontSize="2xl"
-              fontWeight="semibold"
-              color="dark.700"         
-            >
-              moderno
-            </Heading>
-          </Box>  
-          <Box 
-            align="center"
-          >
-            <Image src="museum.svg"/>
-            <Heading
-              mt="6"
-              fontSize="2xl"
-              fontWeight="semibold"
-              color="dark.700"         
-            >
-              clássico
-            </Heading>
-          </Box>  
-          <Box 
-          align="center"
-        >
-          <Image src="earth.svg"/>
-          <Heading
-            mt="6"
-            fontSize="2xl"
-            fontWeight="semibold"
-            color="dark.700"         
-          >
-            e mais...
-          </Heading>
-        </Box> 
-        </Grid>
+        <TravelTypes />
 
         <Divider
           width="90px"
@@ -143,7 +72,9 @@ export default function Home() {
           Então escolha seu continente
         </Heading>
         
-        <SlideContinent/>        
+        <Box mb="10" width="1240px" height="450px" mx="auto">
+          <SlideContinent/>        
+        </Box>
 
       </Flex>
           
