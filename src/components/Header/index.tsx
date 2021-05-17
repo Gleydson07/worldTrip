@@ -7,6 +7,7 @@ export function Header(){
           justifyContent="center"
           alignItems="center"
           width="100%"
+          height="24"
           py="4"
           bg="light.900"
         >
