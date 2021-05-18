@@ -1,15 +1,16 @@
 import React from 'react';
-import { Grid } from '@chakra-ui/react';
+import { SimpleGrid, useBreakpointValue } from '@chakra-ui/react';
 import {travelTypes} from '../../services/continents'
 import { TravelItem } from './TravelItem';
 
 export function TravelTypes(){
-    return (
-        <Grid 
-          my="20"
+    return (        
+        <SimpleGrid 
+          my="16"
           mx="auto"
-          templateColumns="repeat(5, 1fr)"
-          gap="20"
+          mb={["5", "20"]}
+          columns={[2, 5]}
+          gap={["10", "20"]}
         >
             {travelTypes.map(travel => {
                 return (
@@ -21,6 +22,6 @@ export function TravelTypes(){
                 )
             })}
           
-        </Grid>
+        </SimpleGrid>
     )
 }
