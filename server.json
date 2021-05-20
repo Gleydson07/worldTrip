@@ -1,224 +1,230 @@
 {"continents": [
     {
+        "id": "nort-americ",
         "name": "América do Norte",
-        "image": "images/continents/nort-americ.jpeg",
+        "image": "/images/continents/nort-americ.jpeg",
         "description": "A América do Norte é um subcontinente que compreende a porção setentrional do continente americano. Existem duas formas de classificar esse continente: a primeira considera que a América do Norte é apenas a parte mais setentrional da América, separada da América Central na fronteira entre o México e a Guatemala, a segunda classificação reconhece apenas uma América do Norte e uma América do Sul, traçando o limite no Istmo do Panamá (umas vezes no Canal do Panamá, outras na fronteira entre o Panamá e a Colômbia)",
         "numCountry": 3,
         "numLanguage": 7,
         "numCities": 28,
         "majorCountries": [
             {
-                "flag": "images/continents/nort-americ/mexico.png",
+                "flag": "/images/continents/nort-americ/mexico.png",
                 "capital": "Cidade do México",
                 "country": "México",
-                "image": "images/continents/south-americ/card-cidade-do-mexico.jpg"
+                "image": "/images/continents/south-americ/card-cidade-do-mexico.jpg"
             },
             {
-                "flag": "images/continents/nort-americ/eua.png",
+                "flag": "/images/continents/nort-americ/eua.png",
                 "capital": "Washington",
                 "country": "Estados Unidos da América",
-                "image": "images/continents/south-americ/card-washigton.png"
+                "image": "/images/continents/south-americ/card-washigton.png"
             },
             {
-                "flag": "images/continents/nort-americ/canada.png",
+                "flag": "/images/continents/nort-americ/canada.png",
                 "capital": "Ottawa",
                 "country": "Canadá",
-                "image": "images/continents/south-americ/card-ottawa.jpg"
+                "image": "/images/continents/south-americ/card-ottawa.jpg"
             }
         ]
     },
     {
+        "id": "south-americ",
         "name": "América do Sul",
-        "image": "images/continents/south-americ.jpeg",
+        "image": "/images/continents/south-americ.jpeg",
         "description": "A América do Sul é um continente que compreende a porção meridional da América. Também é considerada um subcontinente do continente americano. A sua extensão é de 17 819 100 km², abrangendo 12% da superfície terrestre e 6% da população mundial. ",
         "numCountry": 12,
         "numLanguage": 9,
         "numCities": 163,
         "majorCountries": [
             {
-                "flag": "images/continents/south-americ/brasil.png",
+                "flag": "/images/continents/south-americ/brasil.png",
                 "capital": "Brasília",
                 "country": "Brasil",
-                "image": "images/continents/south-americ/card-brasilia.png"
+                "image": "/images/continents/south-americ/card-brasilia.png"
             },
             {
-                "flag": "images/continents/south-americ/peru.png",
+                "flag": "/images/continents/south-americ/peru.png",
                 "capital": "Lima",
                 "country": "Peru",
-                "image": "images/continents/south-americ/card-lima.jpg"
+                "image": "/images/continents/south-americ/card-lima.jpg"
                 
             },
             {
-                "flag": "images/continents/south-americ/colombia.png",
+                "flag": "/images/continents/south-americ/colombia.png",
                 "capital": "Bogotá",
                 "country": "Colômbia",
-                "image": "images/continents/south-americ/card-bogota.jpg"
+                "image": "/images/continents/south-americ/card-bogota.jpg"
             },
             {
-                "flag": "images/continents/south-americ/argentina.png",
+                "flag": "/images/continents/south-americ/argentina.png",
                 "capital": "Buenos Aires",
                 "country": "Argentina",
-                "image": "images/continents/south-americ/card-buenos-aires.jpg"
+                "image": "/images/continents/south-americ/card-buenos-aires.jpg"
             },
             {
-                "flag": "images/continents/south-americ/bolivia.png",
+                "flag": "/images/continents/south-americ/bolivia.png",
                 "capital": "Sucre",
                 "country": "Bolívia",
-                "image": "images/continents/south-americ/card-sucre.jpg"
+                "image": "/images/continents/south-americ/card-sucre.jpg"
             },
             {
-                "flag": "images/continents/south-americ/chile.png",
+                "flag": "/images/continents/south-americ/chile.png",
                 "capital": "Santiago",
                 "country": "Chile",
-                "image": "images/continents/south-americ/card-santiago.jpg"
+                "image": "/images/continents/south-americ/card-santiago.jpg"
             }
         ]
     },
     {
+        "id": "asia",
         "name": "Ásia",
-        "image": "images/continents/asia.jpeg",
+        "image": "/images/continents/asia.jpeg",
         "description": "A Ásia é o maior dos continentes, tanto em área como em população. Abrange um terço das partes sólidas da superfície da Terra e é responsável por abrigar quase três quintos da população mundial.",
         "numCountry": 50,
         "numLanguage": 8,
         "numCities": 100,
         "majorCountries": [
             {
-                "flag": "images/continents/asia/china.png",
+                "flag": "/images/continents/asia/china.png",
                 "capital": "Pequim",
                 "country": "China",
-                "image": "images/continents/asia/card-pequim.png"
+                "image": "/images/continents/asia/card-pequim.png"
             },
             {
-                "flag": "images/continents/asia/turquia.png",
+                "flag": "/images/continents/asia/turquia.png",
                 "capital": "Ancara",
                 "country": "Turquia",
-                "image": "images/continents/asia/card-ancara.png"
+                "image": "/images/continents/asia/card-ancara.png"
             },
             {
-                "flag": "images/continents/asia/india.png",
+                "flag": "/images/continents/asia/india.png",
                 "capital": "Nova Déli",
                 "country": "Índia",
-                "image": "images/continents/asia/card-nova-deli.jpg"
+                "image": "/images/continents/asia/card-nova-deli.jpg"
             },
             {
-                "flag": "images/continents/asia/singapura.png",
+                "flag": "/images/continents/asia/singapura.png",
                 "capital": "Singapura",
                 "country": "Singapura",
-                "image": "images/continents/asia/card-singapura.jpg"
+                "image": "/images/continents/asia/card-singapura.jpg"
             }
         ]
     },
     {
+        "id": "africa",
         "name": "África",
-        "image": "images/continents/africa.jpeg",
+        "image": "/images/continents/africa.jpeg",
         "description": "A África é o terceiro continente mais extenso (depois da Ásia e da América) com cerca de 30 milhões de quilômetros quadrados, cobrindo 20,3% da área total da terra firme do planeta. É o segundo continente mais populoso da Terra (atrás da Ásia) com cerca de um bilhão de pessoas, representando cerca de um sétimo da população mundial, e 54 países independentes. ",
         "numCountry": 54,
         "numLanguage": 3000,
         "numCities": 100,
         "majorCountries": [
             {
-                "flag": "images/continents/africa/egito.png",
+                "flag": "/images/continents/africa/egito.png",
                 "capital": "Cairo",
                 "country": "Egito",
-                "image": "images/continents/africa/card-cairo.jpg"
+                "image": "/images/continents/africa/card-cairo.jpg"
             },
             {
-                "flag": "images/continents/africa/angola.png",
+                "flag": "/images/continents/africa/angola.png",
                 "capital": "Luanda",
                 "country": "Angola",
-                "image": "images/continents/africa/card-luanda.png"
+                "image": "/images/continents/africa/card-luanda.png"
             },
             {
-                "flag": "images/continents/africa/nigeria.png",
+                "flag": "/images/continents/africa/nigeria.png",
                 "capital": "Abuja",
                 "country": "Nigéria",
-                "image": "images/continents/africa/card-abuja.jpg"
+                "image": "/images/continents/africa/card-abuja.jpg"
             }
         ]
     },
     {
+        "id": "europe",
         "name": "Europa",
-        "image": "images/continents/europe.jpeg",
+        "image": "/images/continents/europe.jpeg",
         "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso,[1] e o mar Negro a sudeste.",
         "numCountry": 50,
         "numLanguage": 60,
         "numCities": 100,
         "majorCountries": [
             {
-                "flag": "images/continents/europe/alemanha.png",
+                "flag": "/images/continents/europe/alemanha.png",
                 "capital": "Berlim",
                 "country": "Alemanha",
-                "image": "images/continents/europe/card-berlim.jpg"
+                "image": "/images/continents/europe/card-berlim.jpg"
             },
             {
-                "flag": "images/continents/europe/belgica.png",
+                "flag": "/images/continents/europe/belgica.png",
                 "capital": "Bruxelas",
                 "country": "Bélgica",
-                "image": "images/continents/europe/card-bruxelas.jpg"
+                "image": "/images/continents/europe/card-bruxelas.jpg"
             },
             {
-                "flag": "images/continents/europe/espanha.png",
+                "flag": "/images/continents/europe/espanha.png",
                 "capital": "Madrid",
                 "country": "Espanha",
-                "image": "images/continents/europe/card-madrid.jpeg"
+                "image": "/images/continents/europe/card-madrid.jpeg"
             },
             {
-                "flag": "images/continents/europe/franca.png",
+                "flag": "/images/continents/europe/franca.png",
                 "capital": "Paris",
                 "country": "França",
-                "image": "images/continents/europe/card-paris.jpg"
+                "image": "/images/continents/europe/card-paris.jpg"
             },
             {
-                "flag": "images/continents/europe/irlanda.png",
+                "flag": "/images/continents/europe/irlanda.png",
                 "capital": "Dublin",
                 "country": "Irlanda",
-                "image": "images/continents/europe/card-dublin.jpg"
+                "image": "/images/continents/europe/card-dublin.jpg"
             },
             {
-                "flag": "images/continents/europe/monaco.png",
+                "flag": "/images/continents/europe/monaco.png",
                 "capital": "Mónaco",
                 "country": "Mónaco",
-                "image": "images/continents/europe/card-monaco.jpg"
+                "image": "/images/continents/europe/card-monaco.jpg"
             },
             {
-                "flag": "images/continents/europe/portugal.png",
+                "flag": "/images/continents/europe/portugal.png",
                 "capital": "Lisboa",
                 "country": "Portugal",
-                "image": "images/continents/europe/card-lisboa.jpg"
+                "image": "/images/continents/europe/card-lisboa.jpg"
             },
             {
-                "flag": "images/continents/europe/reino-unido.png",
+                "flag": "/images/continents/europe/reino-unido.png",
                 "capital": "Londres",
                 "country": "Reino Unido",
-                "image": "images/continents/europe/card-londres.jpg"
+                "image": "/images/continents/europe/card-londres.jpg"
             }
         ]
     },
     {
+        "id": "oceania",
         "name": "Oceania",
-        "image": "images/continents/oceania.jpeg",
+        "image": "/images/continents/oceania.jpeg",
         "description": "Oceânia é uma região geográfica composta por vários grupos de ilhas do oceano Pacífico (Polinésia, Melanésia e Micronésia). O termo Oceania foi criado em 1831 pelo explorador francês Dumont d'Urville.",
         "numCountry": 16,
         "numLanguage": 18,
         "numCities": 83,
         "majorCountries": [
             {
-                "flag": "images/continents/oceania/australia.png",
+                "flag": "/images/continents/oceania/australia.png",
                 "capital": "Sydney",
                 "country": "Austrália",
-                "image": "images/continents/oceania/card-sydney.jpg"
+                "image": "/images/continents/oceania/card-sydney.jpg"
             },
             {
-                "flag": "images/continents/oceania/nova-zelandia.png",
+                "flag": "/images/continents/oceania/nova-zelandia.png",
                 "capital": "Wellington",
                 "country": "Nova Zelândia",
-                "image": "images/continents/oceania/card-wellington.jpg"
+                "image": "/images/continents/oceania/card-wellington.jpg"
             },
             {
-                "flag": "images/continents/oceania/indonesia.png",
+                "flag": "/images/continents/oceania/indonesia.png",
                 "capital": "Jacarta",
                 "country": "Indonésia",
-                "image": "images/continents/oceania/card-jacarta.jpg"
+                "image": "/images/continents/oceania/card-jacarta.jpg"
             }
         ]
     }

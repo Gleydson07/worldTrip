@@ -1,6 +1,7 @@
-import { Box, Flex, Grid, Heading, Text } from "@chakra-ui/layout";
+import { Flex, Grid, Heading } from "@chakra-ui/react";
 import axios from "axios";
 import { GetStaticPaths, GetStaticProps } from "next";
+import { useRouter } from "next/router";
 import { Header } from "../../components/Header";
 
 interface ContinentProps {
@@ -20,13 +21,16 @@ interface ContinentProps {
   ]
 }
 
-const Continent = (continent: ContinentProps) => {
+const Continent = ({continent}) => {
+  const { isFallback } = useRouter();
+
+  isFallback && <p>Carregando</p>
 
   return (
     <>
       <Header />
-      <h4>{continent.description}</h4>
-      {/* <Flex 
+      <h4>{continent.description || "never"}</h4>
+      <Flex 
         mx="auto"
         width="100%"
         maxWidth={[450, 1440]}
@@ -38,7 +42,7 @@ const Continent = (continent: ContinentProps) => {
           px={["5","12"]}
           py={["10","20"]}
           justifyContent="space-around"
-          bgImage={`url(${image})`}
+          bgImage={`url(${continent.image})`}
           bgRepeat="no-repeat"
         >
         <Heading  
@@ -47,21 +51,21 @@ const Continent = (continent: ContinentProps) => {
             fontWeight="medium"
             lineHeight="base"
         >
-            {title}
+            {continent.name}
         </Heading>
         </Flex>
 
-        //descriptions and data
+        {/* descriptions and data */}
         <Flex>
 
         </Flex>
         
-        //cards
+        {/* cards */}
         <Grid>
             
         </Grid> 
 
-      </Flex> */}     
+      </Flex>    
 
     </>
   )
@@ -74,25 +78,28 @@ export const getStaticPaths: GetStaticPaths = async () => {
   const {data} = response;
 
   const paths = data.map((dataContinent: ContinentProps) => {
-    return {params: { name: dataContinent.name}}
+    return {params: { id: dataContinent.id}}
   })
 
   return {
     paths,
-    fallback: false
+    //FALLBACK
+    // true, quando é passado um valor diferente do gerado na build, ele consultana api se o valor existe
+    // false, traz apenas as paginas geradas estaticamente na build
+    fallback: false, 
   }
-
 }
 
 export const getStaticProps: GetStaticProps = async (context) => {
-  const { name } = context.params;
+  const { id } = context.params;
 
-  const response = await axios.get(`http://localhost:3333/continents?name=${name}`);
+  const response = await axios.get(`http://localhost:3333/continents/${id}`);
   const {data} = response;
 
   return { 
     props: {
       continent: data
-    }
+    },
+    revalidate: 10 // 10seg
    }
 }

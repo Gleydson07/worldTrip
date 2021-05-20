@@ -11,7 +11,7 @@ export function Header(){
           py="4"
           bg="light.900"
         >
-            <img src="Logo.svg" alt="logo" width="186.7" />
+            <img src="/logo.svg" alt="logo" width="186.7" />
         </Flex>
     )
 }

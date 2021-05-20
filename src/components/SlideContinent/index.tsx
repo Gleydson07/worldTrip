@@ -7,8 +7,9 @@ import {continents} from '../../../staticContinents'
 SwiperCore.use([Navigation, Pagination, A11y]);
 
 interface continentProps{
+  id: string;
   image: string;
-  continent: string;
+  name: string;
   description: string;
 }
 
@@ -18,11 +19,12 @@ export function SlideContinent(){
   useEffect(() => {
 
     let data = [];
-    continents?.map((continent: continentProps) => {
+    continents.map((continent: continentProps) => {
+        const address = `/continents/${continent.id}`
         data.push(
-        <SwiperSlide key={continent.continent} >
+        <SwiperSlide key={continent.name} >
           <Link 
-            href={`/continents/${continent.continent}`}
+            href={address}
             width="100%" 
             minHeight="450px" 
             _hover={{textDecoration:"none"}}
@@ -40,7 +42,7 @@ export function SlideContinent(){
               color="light.400"
             >
               <Heading fontSize={["2xl","5xl"]} fontWeight="bold" color="light.text" textAlign="center">
-                {continent.continent}
+                {continent.name}
               </Heading>            
               <Heading mt="4" fontSize={["sm","2xl"]} fontWeight="bold" color="light.text" textAlign="center">
                 {continent.description}
