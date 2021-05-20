@@ -49,18 +49,19 @@ export default function Home() {
               sempre sonhou.
             </Text>
           </Box>
-          {!isWideVersion && (<Box minWidth="420">
-            <Image src="Airplane.svg" alt="arplane"/>
-          </Box>)}
+          {!isWideVersion && (
+            <Box minWidth="420">
+              <Image src="Airplane.svg" alt="arplane"/>
+            </Box>
+          )}
         </Flex>
 
         <TravelTypes />
 
         <Divider
           width="90px"
-          my="10"
+          my={["8","16"]}
           mx="auto"
-          height="2px"
           borderColor="dark.700"
         />
 
@@ -76,12 +77,11 @@ export default function Home() {
           Então escolha seu continente
         </Heading>
         
-        <Box mb={["6", "10"]} width="100%" maxWidth="1240px" height="350px" mx="auto">
+        <Box width="100%" maxWidth="1240px" height="300px" mx="auto">
           <SlideContinent/>        
         </Box>
 
-      </Flex>
-          
+      </Flex>          
 
     </>
   )
