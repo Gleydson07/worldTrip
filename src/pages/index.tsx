@@ -77,7 +77,12 @@ export default function Home() {
           Então escolha seu continente
         </Heading>
         
-        <Box width="100%" maxWidth="1240px" height="300px" mx="auto">
+        <Box 
+          width="100%" 
+          maxWidth="1240px" 
+          height="300px" 
+          mx="auto"
+        >
           <SlideContinent/>        
         </Box>
 

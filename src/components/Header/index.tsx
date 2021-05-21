@@ -1,4 +1,5 @@
-import { Flex } from "@chakra-ui/react";
+import { Button, Flex, Icon, Image } from "@chakra-ui/react";
+import { FiChevronLeft } from "react-icons/fi";
 
 export function Header(){
     return (
@@ -6,12 +7,14 @@ export function Header(){
           as="header"
           justifyContent="center"
           alignItems="center"
-          width="100%"
-          height="24"
+          maxWidth={1440}
+          mx="auto"
+          height={["50px", "24"]}
           py="4"
           bg="light.900"
         >
-            <img src="/logo.svg" alt="logo" width="186.7" />
+
+            <Image src="/logo.svg" alt="logo" width="186.7" />
         </Flex>
     )
 }

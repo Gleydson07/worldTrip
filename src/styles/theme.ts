@@ -23,7 +23,8 @@ export const theme = extendTheme({
     fonts: {
         info: 'Poppins',
         heading: 'Poppins',
-        body: 'Poppins' 
+        body: 'Poppins',
+        card: 'Barlow'
     },
     
     styles: {

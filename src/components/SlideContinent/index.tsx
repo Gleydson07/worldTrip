@@ -37,8 +37,8 @@ export function SlideContinent(){
               align="center"
               bgImage={`url(${continent.image})`}
               bgSize="cover"
-              bgPosition="center"
-              textShadow="1px 1px #00000055"
+              bgPosition="top"
+              textShadow="1px 1px #00000088"
               color="light.400"
             >
               <Heading fontSize={["2xl","5xl"]} fontWeight="bold" color="light.text" textAlign="center">

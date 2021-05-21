@@ -1,39 +1,39 @@
 export const continents = [
     {
-        "id": "nort-americ",
+        "id": "north-americ",
         "name": "América do Norte",
         "description": "É um subcontinente do continente americano.", 
-        "image": "images/continents/nort-americ.jpeg"
+        "image": "images/continents/north-americ.png"
     },
     {
         "id": "south-americ",
         "name": "América do Sul",
         "description": "Um continente multicultural.", 
-        "image": "images/continents/south-americ.jpeg"
+        "image": "images/continents/south-americ.jpg"
     },
     {
         "id": "asia",
         "name": "Ásia",
         "description": "É o maior dos continentes, tanto em área como em população.", 
-        "image": "images/continents/asia.jpeg"
+        "image": "images/continents/asia.jpg"
     },
     {
         "id": "africa",
         "name": "África",
         "description": "Rico em biodiversidade e multicultural.", 
-        "image": "images/continents/africa.jpeg"
+        "image": "images/continents/africa.jpg"
     },
     {
         "id": "europe",
         "name": "Europa",
         "description": "O Continente mais antigo.", 
-        "image": "images/continents/europe.jpeg"
+        "image": "images/continents/europe.png"
     },
     {
         "id": "oceania",
         "name": "Oceania",
         "description": "É uma região geográfica composta por vários grupos de ilhas.", 
-        "image": "images/continents/oceania.jpeg"
+        "image": "images/continents/oceania.jpg"
     }
 ]
 
