@@ -6,7 +6,7 @@
         "description": "A América do Norte é um subcontinente que compreende a porção setentrional do continente americano. Existem duas formas de classificar esse continente: a primeira considera que a América do Norte é apenas a parte mais setentrional da América, separada da América Central na fronteira entre o México e a Guatemala, a segunda classificação reconhece apenas uma América do Norte e uma América do Sul, traçando o limite no Istmo do Panamá (umas vezes no Canal do Panamá, outras na fronteira entre o Panamá e a Colômbia)",
         "numCountry": 3,
         "numLanguage": 7,
-        "numCities": 28,
+        "numCities": 13,
         "majorCountries": [
             {
                 "flag": "/images/continents/north-americ/mexico.png",
@@ -35,7 +35,7 @@
         "description": "A América do Sul é um continente que compreende a porção meridional da América. Também é considerada um subcontinente do continente americano. A sua extensão é de 17 819 100 km², abrangendo 12% da superfície terrestre e 6% da população mundial. ",
         "numCountry": 12,
         "numLanguage": 9,
-        "numCities": 163,
+        "numCities": 27,
         "majorCountries": [
             {
                 "flag": "/images/continents/south-americ/brasil.png",
@@ -83,7 +83,7 @@
         "description": "A Ásia é o maior dos continentes, tanto em área como em população. Abrange um terço das partes sólidas da superfície da Terra e é responsável por abrigar quase três quintos da população mundial.",
         "numCountry": 50,
         "numLanguage": 8,
-        "numCities": 100,
+        "numCities": 17,
         "majorCountries": [
             {
                 "flag": "/images/continents/asia/china.png",
@@ -118,7 +118,7 @@
         "description": "A África é o terceiro continente mais extenso (depois da Ásia e da América) com cerca de 30 milhões de quilômetros quadrados, cobrindo 20,3% da área total da terra firme do planeta. É o segundo continente mais populoso da Terra (atrás da Ásia) com cerca de um bilhão de pessoas, representando cerca de um sétimo da população mundial, e 54 países independentes. ",
         "numCountry": 54,
         "numLanguage": 3000,
-        "numCities": 100,
+        "numCities": 22,
         "majorCountries": [
             {
                 "flag": "/images/continents/africa/egito.png",
@@ -147,7 +147,7 @@
         "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso,[1] e o mar Negro a sudeste.",
         "numCountry": 50,
         "numLanguage": 60,
-        "numCities": 100,
+        "numCities": 11,
         "majorCountries": [
             {
                 "flag": "/images/continents/europe/alemanha.png",
@@ -206,7 +206,7 @@
         "description": "Oceânia é uma região geográfica composta por vários grupos de ilhas do oceano Pacífico (Polinésia, Melanésia e Micronésia). O termo Oceania foi criado em 1831 pelo explorador francês Dumont d'Urville.",
         "numCountry": 16,
         "numLanguage": 18,
-        "numCities": 83,
+        "numCities": 10,
         "majorCountries": [
             {
                 "flag": "/images/continents/oceania/australia.png",

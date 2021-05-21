@@ -23,7 +23,8 @@ export default function Home() {
           width="100%" 
           minHeight={["163px", "100%"]}
           px={["5","12"]}
-          py={["10","20"]}
+          pt={["10","20"]}
+          pb={["10","0"]}
           justifyContent="space-around"
           bgImage="url('banner-hero.png')"
           bgRepeat="no-repeat"
@@ -60,7 +61,7 @@ export default function Home() {
 
         <Divider
           width="90px"
-          my={["8","16"]}
+          my="8"
           mx="auto"
           borderColor="dark.700"
         />
@@ -83,10 +84,11 @@ export default function Home() {
           height="300px" 
           mx="auto"
         >
-          <SlideContinent/>        
-        </Box>
+          <SlideContinent/>
 
+        </Box>
       </Flex>          
+              
 
     </>
   )

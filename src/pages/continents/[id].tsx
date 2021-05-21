@@ -59,12 +59,12 @@ const Continent = ({
           bgPosition="top"
         >
         <Heading  
-            color="light.400"
-            mb={["0","3.75rem"]}
-            ml={["0","36"]}
-            fontSize={["3xl", "5xl"]}
-            fontWeight="semibold"
-            lineHeight="base"
+          color="light.400"
+          mb={["0","3.75rem"]}
+          ml={["0","36"]}
+          fontSize={["3xl", "5xl"]}
+          fontWeight="semibold"
+          lineHeight="base"
         >
             {name}
         </Heading>
