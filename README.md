@@ -3,9 +3,10 @@ Este projeto foi criado usando a biblioteca Chakra UI e o framework NextJS, ao
 desenvolver coloquei em prática os conhecimentos adquiridos no curso Ignite React da Rocketseat,
 entre eles estão;
 
-<div>
-  ![desk1](/desktop1.png)
-</div>
+Web            |  Mobile
+:-------------------------:|:-------------------------:
+|![desk1](./public/readme/d1.png)   | ![desk1](./public/readme/m1.png) |
+|![desk1](./public/readme/d2.png) | | ![desk1](./public/readme/m2.png) |
 
 - Rotas dinâmicas: Geramos rotas dinâmicas de acordo com o paramtero passado na página anterior, muito
 útil para blogs, e-commerces, entre outros.
